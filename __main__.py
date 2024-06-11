@@ -3,7 +3,7 @@ import pandas as pd
 from lib.database import socialDb
 from lib.model import fellingsAnalysis
 warnings.filterwarnings("ignore")
-workPath = r'C:\Users\g.munera.gonzalez\Desktop\Fellings prediction'
+workPath = r'*******'
 print('processing database')
 db = socialDb(workPath, name='down_group')
 db.processText('DESCARGAS GRUPALES', 'CONTENT')
